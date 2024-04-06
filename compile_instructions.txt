@@ -1,0 +1,2 @@
+arm-linux-gnueabi-as hello.s -o hello.o
+arm-linux-gnueabi-gcc hello.o -o hello -nostdlib
